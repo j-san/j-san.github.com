@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8'>
+    <meta charset='utf-8'>
 
-	<title>Jonathan Sanchez Pando - Web &amp; Mobile Analyst Developer</title>
+    <title>Jonathan Sanchez Pando - Web &amp; Mobile Analyst Developer</title>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-	<style type="text/css">
-		body {
-			margin-top: 1.0em;
-			background-color: #fff;
-			font-family: Helvetica, Arial, FreeSans, san-serif;
-			color: #000000;
+    <style type="text/css">
+        body {
+            margin-top: 1.0em;
+            background-color: #fff;
+            font-family: Monaco, "Lucida Console", monospace;
+            color: #000000;
             background: url(img/bg-geek-grey.png);
-		}
-		#container {
+        }
+        #container {
             margin: 0 auto;
             max-width: 900px;
             background: white;
@@ -22,31 +22,47 @@
             border-radius: 18px;
             box-shadow: 4px 4px 12px rgba(0,0,0,.6);
         }
-		h1 { font-size: 3.8em; color: #555; margin-bottom: 3px; text-align: center; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #555; }
-		h3 { color: #555; }
-		h4 { padding-left: 14px; }
-		a { color: #555; }
-		.description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-		.download { float: right; }
-		p { padding-left: 1.5em; }
-		fieldset { margin-top: 2em; border-radius: 8px; border-color: #555; box-shadow: inset -2px -2px 8px #888; }
-		fieldset p { padding-left: 3em; }
-		textarea { width: 100%; height: 24em; }
-		pre { background: #555; color: #fff; padding: 15px;}
-		hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-		.footer { text-align:center; padding-top:30px; font-style: italic; }
+        h1, h2, h3 { font-family: "Andale Mono", "Courier  New", monospace; }
+        h1 { font-size: 1.8em; color: #555; margin-bottom: 3px; text-align: center; }
+        h1 .small { font-size: 0.4em; }
+        h1 a { text-decoration: none; }
+        h1 p { padding: 0; margin: 0; white-space: pre }
+        h2 { font-size: 1.5em; color: #555; margin-top: 48px; }
+        h2:before { content: "/* "; }
+        h2:after { content: " */"; }
+        h3 { color: #555;  margin-top: 24px; }
+        h3:before { content: "# "; }
+        h4 { padding-left: 14px; }
+        a { color: #555; }
+        ul li { list-style: none; }
+        ul li:before { content: "+ "; }
+        strong:before, strong:after { content: "**"; }
+        cite:before, cite:after { content: "*"; }
+        code:before, code:after { content: "`"; }
+        .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+        .download { float: right; }
+        p { padding-left: 1.5em; }
+        fieldset { margin-top: 2em; border-radius: 8px; border-color: #555; box-shadow: inset -2px -2px 8px #888; }
+        fieldset p { padding-left: 3em; }
+        textarea { width: 100%; height: 24em; }
+        pre { background: #555; color: #fff; padding: 15px;}
+        hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+        .footer { text-align:center; padding-top:30px; font-style: italic; }
         .social {text-align: right;}
         .social a {display: inline-block; line-height: 33px; vertical-align: top;}
-
-	</style>
+        .csm-certified { float: right; margin-right: 40px; }
+    </style>
 </head>
 
 <body>
     <div id="container">
-        <h1><a href="https://github.com/j-san/">Jonathan Sanchez Pando</a></h1>
+        <h1>
+            <a href="https://github.com/j-san/">
+                <p>==========================</p>
+                <p>= Jonathan Sanchez Pando =</p>
+                <p>==========================</p>
+            </a>
+        </h1>
         <p class="social">
             <a href="https://github.com/j-san/">
                 <img src="img/github.png" alt="See Jonathan Sanchez Pando's profile on GitHub" />
@@ -59,11 +75,7 @@
             </a>
         </p>
 
-        <h2>Web &amp; Mobile Analyst Developer
-            <a href="http://www.scrumalliance.org/community/profile/jsanchezpa" class="smc-certified" title="Scrum Master Certified">
-                <img src="img/CSM.jpg" alt="Scrum Master Certified" />
-            </a>
-        </h2>
+        <h2>Web &amp; Mobile Analyst Developer</h2>
         <p>Believe in Open Source, concerned with UX, ergonomics and user interface design,
         engaged in deployment process and development methodology. Firm believer in <a href="http://wiki.commonjs.org/wiki/Promises">Promisses</a> :).</p>
         <p><a href="https://github.com/jquery/qunit/blob/master/AUTHORS.txt#L49">jQuery Foundation contributor</a>.</p>
@@ -73,7 +85,7 @@
             <li><cite>To solve a problem, first simplify.</cite> (every math book)</li>
             <li><cite>Do it right before you do it fast.</cite></li>
             <li><cite>Simple can be harder than complex.</cite> (Steve Jobs)</li>
-            <li><cite>Simple is better than complex.</cite> (The Zen of Python, by Tim Peters <code>"$ python -m this"</code>)</li>
+            <li><cite>Simple is better than complex.</cite> (The Zen of Python, by Tim Peters <code>python -m this</code>)</li>
             <li><cite>Knowledge makes everything simpler.</cite> (<a href="http://lawsofsimplicity.com/2006/07/23/law-4-learn">Laws of Simplicity</a>, John Maeda)</li>
             <li><cite>Those who cannot remember the past are condemned to repeat it.</cite> (George Santayana)</li>
         </ul>
@@ -85,6 +97,7 @@
             <h3><a href="http://j-san.github.com/SoundSpin">Sound Spin</a></h3>
                 <p>A sandbox app where I test new techniques, libraries and last html features.</p>
         </div>
+
         <h2>Skills</h2>
 
         <h3>Programming Languages</h3>
@@ -93,13 +106,13 @@
             <li><strong>Python</strong></li>
             <li>HTML5 / CSS3</li>
             <li>Objective-C</li>
-            <li>Java</li>
             <li>Sql</li>
-            <li>C / C++</li>
-            <li>Php</li>
-            <li>Xslt</li>
-            <li>Puppet</li>
             <li>Bash</li>
+            <li>Puppet</li>
+            <li>Java</li>
+            <li>C / C++</li>
+            <li>Xslt</li>
+            <li>Php</li>
         </ul>
 
         <h3>Platforms &amp; Frameworks</h3>
@@ -116,33 +129,40 @@
             <li>Mongoose.js</li>
         </ul>
 
-        <h3>System and Tools</h3>
+        <h3>Systems &amp; Tools</h3>
         <ul>
-            <li><strong>Linux</strong> / MacOS</li>
-            <li>Git / Mercurial</li>
-            <li>Jenkins / TravisCI</li>
-            <li>MongoDB / PostgreSQL / Postgis / MySQL / Oracle</li>
+            <li>OS: <strong>Linux</strong> / MacOS</li>
+            <li>CVS: Git / Mercurial</li>
+            <li>CI: Jenkins / TravisCI</li>
+            <li>Build amp; PM: NPM / Bower / Pip / Grunt / Make / Yum / Aptitude</li>
+            <li>DB: MongoDB / PostgreSQL / Postgis / MySQL / Oracle</li>
         </ul>
 
-        <h3>Methodology</h3>
+        <a href="http://www.scrumalliance.org/community/profile/jsanchezpa" class="csm-certified" title="Certified Scrum Master">
+            <img src="img/CSM.jpg" alt="Certified Scrum Master" />
+        </a>
+
+        <h3>Methodologies &amp; Skills</h3>
         <ul>
             <li><strong>Scrum</strong> / Agile Method</li>
+            <li>Structured Testing</li>
+            <li>Ergonomy</li>
             <li>Continuous Integration</li>
             <li>Continuous Delivery</li>
             <li>Continuous Deployment</li>
         </ul>
     </div>
 
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-29145433-1']);
-	  _gaq.push(['_trackPageview']);
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-29145433-1']);
+      _gaq.push(['_trackPageview']);
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 </body>
 </html>
